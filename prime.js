@@ -1,11 +1,12 @@
-funtion check prime(num){
-let count = 0;
+funtion checkprime(num){
+let factor = 0;
 for(let i=1;i<=num; i++){
 if(num%i==0){
-count++
-}if(count == 2){
-console.log("The Number is Prime Number");
+factor++
+}if (factor ==2 ){
+console.log ("prime no.");
 }else{
-console.log("The Number is not a Prime Number");
+  console.log ("Not prime");
+ }
 }
-}
+ checkprime(10);
